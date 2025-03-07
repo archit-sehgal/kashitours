@@ -1,6 +1,7 @@
 import React from "react";
 import bgheroimg from "../assets/BGHERO.png";
 import logo from "../assets/logo.png";
+import namelogo from "../assets/namelogo.png";
 import chardham from "../assets/chardham.jpeg";
 import Jaipur from "../assets/jaipurtour.jpeg";
 import ujjain from "../assets/ujjain.jpeg";
@@ -12,7 +13,10 @@ const Home = () => {
       <div className="nav flex">
         <div className="leftnav flex">
           <div className="logo flex">
-            <img src={logo} width={"100%"} alt="" />
+            <div className="circlelogo">
+              <img src={logo} alt="" />
+            </div>
+            <img src={namelogo} className="namelogo" alt="" />
           </div>
         </div>
         <div className="rightnav flex">
@@ -27,7 +31,7 @@ const Home = () => {
             <h1>KASHI TOURS</h1>
             <p>Spirituality redefined</p>
           </div>
-          <button>Explore 👇🏻</button>
+          <button onClick={() => window.scrollBy(0, 500)}>Explore 👇🏻</button>
         </div>
       </div>
       <div className="tours flex">
@@ -94,9 +98,13 @@ const Home = () => {
       <div className="services flex">
         <div className="servicesimg flex">
           <h3>Explore our Services</h3>
-          <button onClick={()=>{
-            window.location.href="/services"
-          }}>Learn More</button>
+          <button
+            onClick={() => {
+              window.location.href = "/services";
+            }}
+          >
+            Learn More
+          </button>
         </div>
       </div>
       <div className="certificate flex">
@@ -106,10 +114,11 @@ const Home = () => {
         <div className="cert_desc flex">
           <h3>🏆 Certificate of Appreciation from BHU</h3>
           <p>
-            Kashi Tours is honored to receive the <b>Certificate of Appreciation</b> from
-            the Faculty of Commerce, BHU, for sponsoring <b>UDBHAVA 2024</b>. This
-            recognition reflects our commitment to supporting meaningful events
-            and creating lasting impacts. 🚀✨
+            Kashi Tours is honored to receive the{" "}
+            <b>Certificate of Appreciation</b> from the Faculty of Commerce,
+            BHU, for sponsoring <b>UDBHAVA 2024</b>. This recognition reflects
+            our commitment to supporting meaningful events and creating lasting
+            impacts. 🚀✨
           </p>
         </div>
       </div>
