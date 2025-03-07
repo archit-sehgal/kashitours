@@ -2,17 +2,16 @@ import React from "react";
 import logo from "../assets/logo.png";
 import namelogo from "../assets/namelogo.png";
 import srvimg1 from "../assets/services/1.jpeg";
-import srvimg2 from "../assets/services/2.jpeg";
 import srvimg3 from "../assets/services/3.jpeg";
 import srvimg4 from "../assets/services/4.jpeg";
 import srvimg5 from "../assets/services/5.jpeg";
-import srvimg6 from "../assets/services/6.jpeg";
 import srvimg7 from "../assets/services/11.jpeg";
 import srvimg8 from "../assets/services/8.jpeg";
 import srvimg9 from "../assets/services/9.jpeg";
 import srvimg10 from "../assets/services/10.jpeg";
 import srvimg11 from "../assets/services/11.jpeg";
 import srvimg12 from "../assets/services/12.jpeg";
+import cabservice from "../assets/services/cabservice.webp";
 import qr from "../assets/services/qr.jpeg";
 
 const Services = () => {
@@ -64,9 +63,6 @@ const Services = () => {
           <img src={srvimg5} alt="" />
         </div>
         <div className="servph1 srph">
-          <img src={srvimg6} alt="" />
-        </div>
-        <div className="servph1 srph">
           <img src={srvimg8} alt="" />
         </div>
         <div className="servph1 srph">
@@ -74,9 +70,6 @@ const Services = () => {
         </div>
         <div className="servph1 srph">
           <img src={srvimg10} alt="" />
-        </div>
-        <div className="servph1 srph">
-          <img src={srvimg2} alt="" />
         </div>
         <div className="servph1 srph">
           <img src={srvimg11} alt="" />
@@ -100,6 +93,20 @@ const Services = () => {
               check-in
             </li>
           </ul>
+        </div>
+      </div>
+      <div className="cabservice flex">
+        <div className="cabphoto flex">
+          <img src={cabservice} alt="" />
+        </div>
+        <div className="cabdesc flex">
+          <h3>Cab Service: Varanasi - Prayagraj - Ayodhya 🚖</h3>
+          <p>
+            Travel comfortably between Varanasi, Prayagraj, and Ayodhya with our
+            reliable cab service. Safe, affordable, and hassle-free rides with
+            experienced drivers.
+          </p>
+          <button onClick={() => window.open("tel:+917380629555")}>Book Now for a Smooth Journey! 🚕✨</button>
         </div>
       </div>
     </div>

@@ -47,7 +47,8 @@ a {
     align-items: center;
     justify-content: center;
 }
-.circlelogo{
+
+.circlelogo {
     width: 80px;
     height: 80px;
     display: flex;
@@ -56,13 +57,15 @@ a {
     border-radius: 50%;
     overflow: hidden;
 }
-.circlelogo img{
+
+.circlelogo img {
     width: 100%;
 }
 
-.namelogo{
+.namelogo {
     height: 40px;
 }
+
 .rightnav {
     gap: 5vw;
 }
@@ -313,7 +316,7 @@ a {
 .servmain {
     width: 100%;
     position: relative;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     height: fit-content;
 }
 
@@ -416,7 +419,48 @@ a {
     flex-direction: column;
 }
 
-.sliderhome{
+.cabservice {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    top:20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.cabphoto{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.cabphoto img{
+    width: 100%;
+}
+.cabdesc{
+    flex-direction: column;
+}
+.cabdesc p{
+    max-width: 400px;
+    text-align: justify;
+}
+.cabdesc button{
+    margin-top: 10px;
+    background-color: rgb(4, 66, 4);
+    border-radius: 20px;
+    padding: 5px 30px;
+    border: none;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+/* reviews */
+
+.sliderhome {
     position: relative;
     top: 70px;
 }
@@ -425,10 +469,11 @@ a {
 @media screen and (max-width: 480px) {
 
 
-    .namelogo{
-        height:0px;
+    .namelogo {
+        height: 0px;
         display: none;
     }
+
     .hero {
         height: 500px;
     }
@@ -471,5 +516,8 @@ a {
     .servicesimg h3 {
         font-size: 3rem;
         line-height: 3rem;
+    }
+    .cabservice{
+        margin-top: 300px;
     }
 }
