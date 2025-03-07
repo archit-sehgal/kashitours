@@ -1,5 +1,4 @@
 import React from "react";
-import bgheroimg from "../assets/BGHERO.png";
 import logo from "../assets/logo.png";
 import namelogo from "../assets/namelogo.png";
 import chardham from "../assets/chardham.jpeg";
