@@ -21,7 +21,7 @@ const Home = () => {
         <div className="rightnav flex">
           <a href="/">Home</a>
           <a href="/services">Services</a>
-          <a href="">Contact Now</a>
+          <a href="tel:+917380629555">Contact Now</a>
         </div>
       </div>
       <div className="hero flex">
@@ -45,7 +45,9 @@ const Home = () => {
               Gangotri, Kedarnath, and Badrinath—nestled in the Himalayas,
               offering spiritual bliss and breathtaking landscapes.
             </p>
-            <button>Book Now</button>
+            <button onClick={() => window.open("tel:+917380629555")}>
+              Book Now
+            </button>
           </div>
         </div>
 
@@ -60,7 +62,9 @@ const Home = () => {
               magnificent forts, vibrant bazaars, and iconic landmarks like
               Amber Fort, Hawa Mahal, and City Palace.
             </p>
-            <button>Book Now</button>
+            <button onClick={() => window.open("tel:+917380629555")}>
+              Book Now
+            </button>
           </div>
         </div>
 
@@ -75,7 +79,9 @@ const Home = () => {
               Mahakaleshwar Jyotirlinga, the Kumbh Mela, and serene ghats along
               the sacred Shipra River.
             </p>
-            <button>Book Now</button>
+            <button onClick={() => window.open("tel:+917380629555")}>
+              Book Now
+            </button>
           </div>
         </div>
 
@@ -90,7 +96,9 @@ const Home = () => {
               Hills, where devotees undertake a spiritually enriching trek to
               seek the goddess’s blessings.
             </p>
-            <button>Book Now</button>
+            <button onClick={() => window.open("tel:+917380629555")}>
+              Book Now
+            </button>
           </div>
         </div>
       </div>
