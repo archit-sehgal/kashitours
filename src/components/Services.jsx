@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import namelogo from "../assets/namelogo.png";
 import srvimg1 from "../assets/services/1.jpeg";
 import srvimg2 from "../assets/services/2.jpeg";
 import srvimg3 from "../assets/services/3.jpeg";
@@ -17,21 +18,21 @@ import qr from "../assets/services/qr.jpeg";
 const Services = () => {
   return (
     <div className="servmain">
-       <div className="nav flex">
-              <div className="leftnav flex">
-                <div className="logo flex">
-                  <div className="circlelogo">
-                    <img src={logo} alt="" />
-                  </div>
-                  <img src={namelogo} className="namelogo" alt="" />
-                </div>
-              </div>
-              <div className="rightnav flex">
-                <a href="/">Home</a>
-                <a href="/services">Services</a>
-                <a href="">Contact Now</a>
-              </div>
+      <div className="nav flex">
+        <div className="leftnav flex">
+          <div className="logo flex">
+            <div className="circlelogo">
+              <img src={logo} alt="" />
             </div>
+            <img src={namelogo} className="namelogo" alt="" />
+          </div>
+        </div>
+        <div className="rightnav flex">
+          <a href="/">Home</a>
+          <a href="/services">Services</a>
+          <a href="">Contact Now</a>
+        </div>
+      </div>
       <div className="servhero flex">
         <div className="servhero-black flex">
           <div className="hero-black-content flex">
@@ -40,48 +41,48 @@ const Services = () => {
               Experience the perfect blend of comfort and elegance with our
               well-furnished hotel rooms. Whether you're on a business trip or a
               relaxing vacation, our spacious and beautifully designed rooms
-              ensure a memorable stay. <br />🌟Book now for a delightful hospitality
-              experience!✨
+              ensure a memorable stay. <br />
+              🌟Book now for a delightful hospitality experience!✨
             </p>
           </div>
         </div>
       </div>
       <div className="servphotos flex">
         <div className="servph1 srph">
-            <img src={srvimg1} alt="" />
+          <img src={srvimg1} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg3} alt="" />
+          <img src={srvimg3} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg4} alt="" />
+          <img src={srvimg4} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg7} alt="" />
+          <img src={srvimg7} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg5} alt="" />
+          <img src={srvimg5} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg6} alt="" />
+          <img src={srvimg6} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg8} alt="" />
+          <img src={srvimg8} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg9} alt="" />
+          <img src={srvimg9} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg10} alt="" />
+          <img src={srvimg10} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg2} alt="" />
+          <img src={srvimg2} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg11} alt="" />
+          <img src={srvimg11} alt="" />
         </div>
         <div className="servph1 srph">
-            <img src={srvimg12} alt="" />
+          <img src={srvimg12} alt="" />
         </div>
       </div>
       <div className="qrsec flex">
@@ -94,7 +95,10 @@ const Services = () => {
           <ul>
             <li>✅ 50% payment required at the time of booking</li>
             <li>✅ Full payment to be made one week before travel</li>
-            <li>✅ Cancellation policy: Free cancellation up to 30 days before check-in</li>
+            <li>
+              ✅ Cancellation policy: Free cancellation up to 30 days before
+              check-in
+            </li>
           </ul>
         </div>
       </div>
