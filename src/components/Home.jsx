@@ -5,7 +5,9 @@ import chardham from "../assets/chardham.jpeg";
 import Jaipur from "../assets/jaipurtour.jpeg";
 import ujjain from "../assets/ujjain.jpeg";
 import vaishno from "../assets/vaishnodevi.jpeg";
+import Varanasi from "../assets/varanasi.jpg";
 import certificate from "../assets/certificate.png";
+import Slider from "./Slider.jsx";
 const Home = () => {
   return (
     <div className="homemain flex">
@@ -101,6 +103,25 @@ const Home = () => {
             </button>
           </div>
         </div>
+        <div className="shrivaishnomata  tr flex">
+          <div className="ch-img">
+            <img src={Varanasi} alt="Vaishno Devi Tour" />
+          </div>
+          <div className="ch-desc flex">
+            <h2>Varanasi Tour</h2>
+            <p>
+              Embark on a spiritual journey to the sacred city of Varanasi,
+              where the Ganga Aarti, ancient temples, and vibrant ghats create a
+              mesmerizing experience. Discover the divine essence of Kashi
+              Vishwanath Temple, take a serene boat ride on the Ganges, and
+              immerse yourself in the rich cultural heritage of this timeless
+              city.
+            </p>
+            <button onClick={() => window.open("tel:+917380629555")}>
+              Book Now
+            </button>
+          </div>
+        </div>
       </div>
       <div className="services flex">
         <div className="servicesimg flex">
@@ -128,6 +149,9 @@ const Home = () => {
             impacts. 🚀✨
           </p>
         </div>
+      </div>
+      <div className="sliderhome">
+        <Slider />
       </div>
       <div className="footer flex">
         <div className="contact_sec flex">
