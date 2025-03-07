@@ -17,18 +17,21 @@ import qr from "../assets/services/qr.jpeg";
 const Services = () => {
   return (
     <div className="servmain">
-      <div className="nav flex">
-        <div className="leftnav flex">
-          <div className="logo flex">
-            <img src={logo} width={"100%"} alt="" />
-          </div>
-        </div>
-        <div className="rightnav flex">
-          <a href="/">Home</a>
-          <a href="/services">Services</a>
-          <a href="">Contact Now</a>
-        </div>
-      </div>
+       <div className="nav flex">
+              <div className="leftnav flex">
+                <div className="logo flex">
+                  <div className="circlelogo">
+                    <img src={logo} alt="" />
+                  </div>
+                  <img src={namelogo} className="namelogo" alt="" />
+                </div>
+              </div>
+              <div className="rightnav flex">
+                <a href="/">Home</a>
+                <a href="/services">Services</a>
+                <a href="">Contact Now</a>
+              </div>
+            </div>
       <div className="servhero flex">
         <div className="servhero-black flex">
           <div className="hero-black-content flex">
