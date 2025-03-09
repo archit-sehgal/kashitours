@@ -14,6 +14,11 @@ import srvimg12 from "../assets/services/12.jpeg";
 import cabservice from "../assets/services/cabservice.webp";
 import qr from "../assets/services/qr.jpeg";
 
+import othserv1 from "../assets/otherservices/corporateBooking.webp";
+import othserv2 from "../assets/otherservices/weddingbooking.webp";
+import othserv3 from "../assets/otherservices/mice.webp";
+import othserv4 from "../assets/otherservices/coupleTour.webp";
+
 const Services = () => {
   return (
     <div className="servmain">
@@ -29,7 +34,7 @@ const Services = () => {
         <div className="rightnav flex">
           <a href="/">Home</a>
           <a href="/services">Services</a>
-          <a href="">Contact Now</a>
+          <a href="tel:+917380629555">Contact Now</a>
         </div>
       </div>
       <div className="servhero flex">
@@ -106,7 +111,46 @@ const Services = () => {
             reliable cab service. Safe, affordable, and hassle-free rides with
             experienced drivers.
           </p>
-          <button onClick={() => window.open("tel:+917380629555")}>Book Now for a Smooth Journey! 🚕✨</button>
+          <button onClick={() => window.open("tel:+917380629555")}>
+            Book Now for a Smooth Journey! 🚕✨
+          </button>
+        </div>
+      </div>
+      <div className="Otherservices flex">
+        <div className="othserv oths1 flex">
+          <div className="othserv_img flex"onClick={() => window.location.href=("tel:+917380629555")}>
+            <img src={othserv1} alt="" />
+          </div>
+          <div className="othserv_desc flex">
+            <h3>Corporate Booking</h3>
+          </div>
+        </div>
+        <div className="othserv oths1 flex">
+          <div className="othserv_img flex" onClick={() => window.location.href=("tel:+917380629555")}>
+            <img src={othserv2} alt="" />
+          </div>
+          <div className="othserv_desc flex">
+            <h3>Wedding Booking</h3>
+          </div>
+        </div>
+        <div className="othserv oths1 flex">
+          <div
+            className="othserv_img flex"
+            onClick={() => window.location.href=("tel:+917380629555")}
+          >
+            <img src={othserv3} alt="" />
+          </div>
+          <div className="othserv_desc flex">
+            <h3>MICE Booking</h3>
+          </div>
+        </div>
+        <div className="othserv oths1 flex">
+          <div className="othserv_img flex"onClick={() => window.location.href=("tel:+917380629555")}>
+            <img src={othserv4} alt="" />
+          </div>
+          <div className="othserv_desc flex">
+            <h3>Couple Tour</h3>
+          </div>
         </div>
       </div>
     </div>

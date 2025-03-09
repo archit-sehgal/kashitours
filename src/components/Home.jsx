@@ -47,7 +47,7 @@ const Home = () => {
               Gangotri, Kedarnath, and Badrinath—nestled in the Himalayas,
               offering spiritual bliss and breathtaking landscapes.
             </p>
-            <button onClick={() => window.open("tel:+917380629555")}>
+            <button onClick={() => window.location.href=("tel:+917380629555")}>
               Book Now
             </button>
           </div>
@@ -64,7 +64,7 @@ const Home = () => {
               magnificent forts, vibrant bazaars, and iconic landmarks like
               Amber Fort, Hawa Mahal, and City Palace.
             </p>
-            <button onClick={() => window.open("tel:+917380629555")}>
+            <button onClick={() => window.location.href=("tel:+917380629555")}>
               Book Now
             </button>
           </div>
@@ -81,7 +81,7 @@ const Home = () => {
               Mahakaleshwar Jyotirlinga, the Kumbh Mela, and serene ghats along
               the sacred Shipra River.
             </p>
-            <button onClick={() => window.open("tel:+917380629555")}>
+            <button onClick={() => window.location.href=("tel:+917380629555")}>
               Book Now
             </button>
           </div>
@@ -98,7 +98,7 @@ const Home = () => {
               Hills, where devotees undertake a spiritually enriching trek to
               seek the goddess’s blessings.
             </p>
-            <button onClick={() => window.open("tel:+917380629555")}>
+            <button onClick={() => window.location.href=("tel:+917380629555")}>
               Book Now
             </button>
           </div>
@@ -117,7 +117,7 @@ const Home = () => {
               immerse yourself in the rich cultural heritage of this timeless
               city.
             </p>
-            <button onClick={() => window.open("tel:+917380629555")}>
+            <button onClick={() => window.location.href=("tel:+917380629555")}>
               Book Now
             </button>
           </div>
@@ -156,10 +156,10 @@ const Home = () => {
       <div className="footer flex">
         <div className="contact_sec flex">
           <a href="mailto:mht.snghna@rediffmail.com">
-            📩 mht.snghna@rediffmail
+            📩 mht.snghna@rediffmail.com
           </a>
           <a href="mailto:kashitourshreesaibrothers@gmail.com">
-            📩 kashitourshreesaibrothers
+            📩 kashitourshreesaibrothers@gmail.com
           </a>
         </div>
         <div className="lastline">
@@ -167,6 +167,23 @@ const Home = () => {
           <a href="https://www.digitaleditz.com/" target="_blank">
             DigitalEditz
           </a>
+          <br />
+          <div className="smlinksFooter flex">
+            <a
+              className="SmLink"
+              href="https://www.facebook.com/share/1Dx7hxqUHC/"
+              target="_blank"
+            >
+              <i className="fa-brands fa-square-facebook"></i> Facebook
+            </a>
+            <a
+              className="SmLink"
+              href="https://www.instagram.com/srisaibro/"
+              target="_blank"
+            >
+              <i className="fa-brands fa-square-instagram"></i> Instagram
+            </a>
+          </div>
         </div>
       </div>
     </div>
