@@ -111,7 +111,7 @@ const Services = () => {
             reliable cab service. Safe, affordable, and hassle-free rides with
             experienced drivers.
           </p>
-          <button onClick={() => window.open("tel:+917380629555")}>
+          <button onClick={() => window.location.href=("tel:+917380629555")}>
             Book Now for a Smooth Journey! 🚕✨
           </button>
         </div>

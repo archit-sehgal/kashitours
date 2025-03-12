@@ -7,6 +7,8 @@ import ujjain from "../assets/ujjain.jpeg";
 import vaishno from "../assets/vaishnodevi.jpeg";
 import Varanasi from "../assets/varanasi.jpg";
 import certificate from "../assets/certificate.png";
+import Ayodhya from "../assets/Ayodhya.webp";
+import pryagraj from "../assets/pryagraj.webp";
 import Slider from "./Slider.jsx";
 const Home = () => {
   return (
@@ -30,12 +32,73 @@ const Home = () => {
         <div className="hero-black flex">
           <div className="hero-black-content flex">
             <h1>KASHI TOURS</h1>
-            <p>Spirituality redefined</p>
+            <p>by LHT</p>
+            <p>🔱 Spirituality redefined 🔱</p>
           </div>
           <button onClick={() => window.scrollBy(0, 500)}>Explore 👇🏻</button>
         </div>
       </div>
       <div className="tours flex">
+        <div className="shrivaishnomata  tr flex">
+          <div className="ch-img">
+            <img src={Varanasi} alt="Vaishno Devi Tour" />
+          </div>
+          <div className="ch-desc flex">
+            <h2>Varanasi Tour</h2>
+            <p>
+              Embark on a spiritual journey to the sacred city of Varanasi,
+              where the Ganga Aarti, ancient temples, and vibrant ghats create a
+              mesmerizing experience. Discover the divine essence of Kashi
+              Vishwanath Temple, take a serene boat ride on the Ganges, and
+              immerse yourself in the rich cultural heritage of this timeless
+              city.
+            </p>
+            <button
+              onClick={() => (window.location.href = "tel:+917380629555")}
+            >
+              Book Now
+            </button>
+          </div>
+        </div>
+        {/* Ayodhya Tour */}
+        <div className="ayodhya tr flex">
+          <div className="ch-img">
+            <img src={Ayodhya} alt="Ayodhya Tour" />
+          </div>
+          <div className="ch-desc flex">
+            <h2>Ayodhya Tour</h2>
+            <p>
+              Explore the birthplace of Lord Rama, Ayodhya, a city rich in
+              mythology, culture, and sacred temples that echo the Ramayana's
+              timeless legacy.
+            </p>
+            <button
+              onClick={() => (window.location.href = "tel:+917380629555")}
+            >
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        {/* Prayagraj Tour */}
+        <div className="prayagraj tr flex">
+          <div className="ch-img">
+            <img src={pryagraj} alt="Prayagraj Tour" />
+          </div>
+          <div className="ch-desc flex">
+            <h2>Prayagraj Tour</h2>
+            <p>
+              Visit Prayagraj, the sacred confluence of Ganga, Yamuna, and the
+              mythical Saraswati. Witness the grandeur of the Kumbh Mela and
+              immerse in the spiritual ambiance.
+            </p>
+            <button
+              onClick={() => (window.location.href = "tel:+917380629555")}
+            >
+              Book Now
+            </button>
+          </div>
+        </div>
         <div className="chardham  tr  flex">
           <div className="ch-img">
             <img src={chardham} alt="Chardham Tour" />
@@ -47,7 +110,9 @@ const Home = () => {
               Gangotri, Kedarnath, and Badrinath—nestled in the Himalayas,
               offering spiritual bliss and breathtaking landscapes.
             </p>
-            <button onClick={() => window.location.href=("tel:+917380629555")}>
+            <button
+              onClick={() => (window.location.href = "tel:+917380629555")}
+            >
               Book Now
             </button>
           </div>
@@ -64,7 +129,9 @@ const Home = () => {
               magnificent forts, vibrant bazaars, and iconic landmarks like
               Amber Fort, Hawa Mahal, and City Palace.
             </p>
-            <button onClick={() => window.location.href=("tel:+917380629555")}>
+            <button
+              onClick={() => (window.location.href = "tel:+917380629555")}
+            >
               Book Now
             </button>
           </div>
@@ -81,7 +148,9 @@ const Home = () => {
               Mahakaleshwar Jyotirlinga, the Kumbh Mela, and serene ghats along
               the sacred Shipra River.
             </p>
-            <button onClick={() => window.location.href=("tel:+917380629555")}>
+            <button
+              onClick={() => (window.location.href = "tel:+917380629555")}
+            >
               Book Now
             </button>
           </div>
@@ -98,26 +167,9 @@ const Home = () => {
               Hills, where devotees undertake a spiritually enriching trek to
               seek the goddess’s blessings.
             </p>
-            <button onClick={() => window.location.href=("tel:+917380629555")}>
-              Book Now
-            </button>
-          </div>
-        </div>
-        <div className="shrivaishnomata  tr flex">
-          <div className="ch-img">
-            <img src={Varanasi} alt="Vaishno Devi Tour" />
-          </div>
-          <div className="ch-desc flex">
-            <h2>Varanasi Tour</h2>
-            <p>
-              Embark on a spiritual journey to the sacred city of Varanasi,
-              where the Ganga Aarti, ancient temples, and vibrant ghats create a
-              mesmerizing experience. Discover the divine essence of Kashi
-              Vishwanath Temple, take a serene boat ride on the Ganges, and
-              immerse yourself in the rich cultural heritage of this timeless
-              city.
-            </p>
-            <button onClick={() => window.location.href=("tel:+917380629555")}>
+            <button
+              onClick={() => (window.location.href = "tel:+917380629555")}
+            >
               Book Now
             </button>
           </div>
@@ -182,6 +234,13 @@ const Home = () => {
               target="_blank"
             >
               <i className="fa-brands fa-square-instagram"></i> Instagram
+            </a>
+            <a
+              className="SmLink smwb"
+              href="https://wa.me/917380629555"
+              target="_blank"
+            >
+              <i className="fa-brands fa-square-instagram"></i> Whatsapp
             </a>
           </div>
         </div>
