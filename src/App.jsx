@@ -5,25 +5,25 @@ import Home from "./components/Home";
 import Services from "./components/Services";
 
 function App() {
-  // useEffect(() => {
-  //   const disableRightClick = (event) => event.preventDefault();
-  //   const disableShortcuts = (event) => {
-  //     if (event.ctrlKey && event.key.toLowerCase() === "u") {
-  //       event.preventDefault();
-  //     }
-  //     if (event.keyCode === 123) {
-  //       event.preventDefault();
-  //     }
-  //   };
+  useEffect(() => {
+    const disableRightClick = (event) => event.preventDefault();
+    const disableShortcuts = (event) => {
+      if (event.ctrlKey && event.key.toLowerCase() === "u") {
+        event.preventDefault();
+      }
+      if (event.keyCode === 123) {
+        event.preventDefault();
+      }
+    };
 
-  //   document.addEventListener("contextmenu", disableRightClick);
-  //   document.addEventListener("keydown", disableShortcuts);
+    document.addEventListener("contextmenu", disableRightClick);
+    document.addEventListener("keydown", disableShortcuts);
 
-  //   return () => {
-  //     document.removeEventListener("contextmenu", disableRightClick);
-  //     document.removeEventListener("keydown", disableShortcuts);
-  //   };
-  // }, []);
+    return () => {
+      document.removeEventListener("contextmenu", disableRightClick);
+      document.removeEventListener("keydown", disableShortcuts);
+    };
+  }, []);
 
   return (
     <Router>

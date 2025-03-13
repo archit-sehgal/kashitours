@@ -9,6 +9,7 @@ import Varanasi from "../assets/varanasi.jpg";
 import certificate from "../assets/certificate.png";
 import Ayodhya from "../assets/Ayodhya.webp";
 import pryagraj from "../assets/pryagraj.webp";
+import b2b from "../assets/b2b.jpeg"
 import Slider from "./Slider.jsx";
 const Home = () => {
   return (
@@ -52,6 +53,24 @@ const Home = () => {
               Vishwanath Temple, take a serene boat ride on the Ganges, and
               immerse yourself in the rich cultural heritage of this timeless
               city.
+            </p>
+            <button
+              onClick={() => (window.location.href = "tel:+917380629555")}
+            >
+              Book Now
+            </button>
+          </div>
+        </div>
+        <div className="shrivaishnomata  tr flex">
+          <div className="ch-img">
+            <img src={b2b} alt="Vaishno Devi Tour" />
+          </div>
+          <div className="ch-desc flex">
+            <h2>B2B bulk room packages</h2>
+            <p>
+              We provide cost-effective bulk room packages for businesses,
+              travel agencies, and corporate clients with seamless booking
+              solutions worldwide.
             </p>
             <button
               onClick={() => (window.location.href = "tel:+917380629555")}
