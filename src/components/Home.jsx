@@ -239,6 +239,12 @@ const Home = () => {
             DigitalEditz
           </a>
           <br />
+          <p className="agency-partner">
+            Agency Partner for your marketing and website requirement:{" "}
+            <a href="https://www.digitaleditz.com/" target="_blank">
+              DigitalEditz
+            </a>
+          </p>
           <div className="smlinksFooter flex">
             <a
               className="SmLink"
@@ -264,6 +270,27 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <a
+        className="whatsapp-float"
+        href="https://wa.me/916005643394?text=I%20am%20interested%20in%20your%20services"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Chat on WhatsApp"
+      >
+        <span className="whatsapp-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill="currentColor"
+              d="M19.1 17.8c-.3-.2-1.6-.8-1.9-.9-.3-.1-.5-.2-.8.2-.2.3-.9.9-1.1 1.1-.2.2-.4.2-.7.1-2-.8-3.3-2.8-3.4-3-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.6.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6 0-.2-.8-2-1.1-2.7-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7 0 1.6 1.1 3.1 1.3 3.3.2.2 2.2 3.4 5.4 4.7.8.3 1.3.5 1.8.6.8.2 1.5.2 2.1.1.6-.1 1.6-.7 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5z"
+            />
+            <path
+              fill="currentColor"
+              d="M16 3.2c-7.1 0-12.8 5.7-12.8 12.8 0 2.3.6 4.5 1.8 6.4L3 29l6.8-2c1.8 1 3.9 1.6 6.2 1.6 7.1 0 12.8-5.7 12.8-12.8S23.1 3.2 16 3.2zm0 23.2c-2 0-4-.6-5.6-1.6l-.4-.2-4 .9 1-3.9-.3-.4c-1.2-1.7-1.8-3.7-1.8-5.8 0-6.1 5-11.1 11.1-11.1s11.1 5 11.1 11.1-5 11-11.1 11z"
+            />
+          </svg>
+        </span>
+        <span className="whatsapp-text">I am interested in your services</span>
+      </a>
     </div>
   );
 };
