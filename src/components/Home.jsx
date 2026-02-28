@@ -234,7 +234,7 @@ const Home = () => {
           </a>
         </div>
         <div className="lastline">
-          Copyright 2025 || kashi tours by LHT || Devloped by{" "}
+          Copyright 2026 || kashi tours by LHT || Devloped by{" "}
           <a href="https://www.digitaleditz.com/" target="_blank">
             DigitalEditz
           </a>
