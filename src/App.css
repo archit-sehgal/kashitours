@@ -372,13 +372,15 @@ a {
   right: 20px;
   bottom: 20px;
   z-index: 60;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
   background: linear-gradient(140deg, #25d366, #1aa24e);
   color: #fff;
-  border-radius: 999px;
-  padding: 11px 18px 11px 12px;
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  padding: 0;
   box-shadow: 0 12px 24px rgba(19, 104, 47, 0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -389,24 +391,18 @@ a {
 }
 
 .whatsapp-icon {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.16);
 }
 
 .whatsapp-icon svg {
   width: 23px;
   height: 23px;
-}
-
-.whatsapp-text {
-  font-size: 0.84rem;
-  letter-spacing: 0.01em;
-  font-weight: 700;
 }
 
 .certificate {
@@ -838,12 +834,9 @@ a {
   }
 
   .whatsapp-float {
-    right: 12px;
-    bottom: 14px;
-    padding: 10px 12px;
-  }
-
-  .whatsapp-text {
-    display: none;
+    right: 14px;
+    bottom: 16px;
+    width: 54px;
+    height: 54px;
   }
 }

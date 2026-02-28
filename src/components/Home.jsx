@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import logo from "../assets/logo.png";
 import namelogo from "../assets/namelogo.png";
 import chardham from "../assets/chardham.jpeg";
@@ -240,7 +240,7 @@ const Home = () => {
           </a>
           <br />
           <p className="agency-partner">
-            Agency Partner for your marketing and website requirement:{" "}
+            Disclaimer: For website and marketing needs, contact our agency partner {" "}
             <a href="https://www.digitaleditz.com/" target="_blank">
               DigitalEditz
             </a>
@@ -272,7 +272,7 @@ const Home = () => {
       </div>
       <a
         className="whatsapp-float"
-        href="https://wa.me/916005643394?text=I%20am%20interested%20in%20your%20services"
+        href="https://wa.me/916005643394"
         target="_blank"
         rel="noreferrer"
         aria-label="Chat on WhatsApp"
@@ -289,10 +289,11 @@ const Home = () => {
             />
           </svg>
         </span>
-        <span className="whatsapp-text">I am interested in your services</span>
+
       </a>
     </div>
   );
 };
 
 export default Home;
+
