@@ -34,7 +34,7 @@ const Services = () => {
         <div className="rightnav flex">
           <a href="/">Home</a>
           <a href="/services">Services</a>
-          <a href="tel:+917380629555">Contact Now</a>
+          <a href="tel:+918881537945">Contact Now</a>
         </div>
       </div>
       <div className="servhero flex">
@@ -111,14 +111,14 @@ const Services = () => {
             reliable cab service. Safe, affordable, and hassle-free rides with
             experienced drivers.
           </p>
-          <button onClick={() => window.location.href=("tel:+917380629555")}>
+          <button onClick={() => window.location.href=("tel:+918881537945")}>
             Book Now for a Smooth Journey! 🚕✨
           </button>
         </div>
       </div>
       <div className="Otherservices flex">
         <div className="othserv oths1 flex">
-          <div className="othserv_img flex"onClick={() => window.location.href=("tel:+917380629555")}>
+          <div className="othserv_img flex"onClick={() => window.location.href=("tel:+918881537945")}>
             <img src={othserv1} alt="" />
           </div>
           <div className="othserv_desc flex">
@@ -126,7 +126,7 @@ const Services = () => {
           </div>
         </div>
         <div className="othserv oths1 flex">
-          <div className="othserv_img flex" onClick={() => window.location.href=("tel:+917380629555")}>
+          <div className="othserv_img flex" onClick={() => window.location.href=("tel:+918881537945")}>
             <img src={othserv2} alt="" />
           </div>
           <div className="othserv_desc flex">
@@ -136,7 +136,7 @@ const Services = () => {
         <div className="othserv oths1 flex">
           <div
             className="othserv_img flex"
-            onClick={() => window.location.href=("tel:+917380629555")}
+            onClick={() => window.location.href=("tel:+918881537945")}
           >
             <img src={othserv3} alt="" />
           </div>
@@ -145,7 +145,7 @@ const Services = () => {
           </div>
         </div>
         <div className="othserv oths1 flex">
-          <div className="othserv_img flex"onClick={() => window.location.href=("tel:+917380629555")}>
+          <div className="othserv_img flex"onClick={() => window.location.href=("tel:+918881537945")}>
             <img src={othserv4} alt="" />
           </div>
           <div className="othserv_desc flex">

@@ -26,7 +26,7 @@ const Home = () => {
         <div className="rightnav flex">
           <a href="/">Home</a>
           <a href="/services">Services</a>
-          <a href="tel:+917380629555">Contact Now</a>
+          <a href="tel:+918881537945">Contact Now</a>
         </div>
       </div>
       <div className="hero flex">
@@ -55,7 +55,7 @@ const Home = () => {
               city.
             </p>
             <button
-              onClick={() => (window.location.href = "tel:+917380629555")}
+              onClick={() => (window.location.href = "tel:+918881537945")}
             >
               Book Now
             </button>
@@ -73,7 +73,7 @@ const Home = () => {
               solutions worldwide.
             </p>
             <button
-              onClick={() => (window.location.href = "tel:+917380629555")}
+              onClick={() => (window.location.href = "tel:+918881537945")}
             >
               Book Now
             </button>
@@ -92,7 +92,7 @@ const Home = () => {
               timeless legacy.
             </p>
             <button
-              onClick={() => (window.location.href = "tel:+917380629555")}
+              onClick={() => (window.location.href = "tel:+918881537945")}
             >
               Book Now
             </button>
@@ -112,7 +112,7 @@ const Home = () => {
               immerse in the spiritual ambiance.
             </p>
             <button
-              onClick={() => (window.location.href = "tel:+917380629555")}
+              onClick={() => (window.location.href = "tel:+918881537945")}
             >
               Book Now
             </button>
@@ -130,7 +130,7 @@ const Home = () => {
               offering spiritual bliss and breathtaking landscapes.
             </p>
             <button
-              onClick={() => (window.location.href = "tel:+917380629555")}
+              onClick={() => (window.location.href = "tel:+918881537945")}
             >
               Book Now
             </button>
@@ -149,7 +149,7 @@ const Home = () => {
               Amber Fort, Hawa Mahal, and City Palace.
             </p>
             <button
-              onClick={() => (window.location.href = "tel:+917380629555")}
+              onClick={() => (window.location.href = "tel:+918881537945")}
             >
               Book Now
             </button>
@@ -168,7 +168,7 @@ const Home = () => {
               the sacred Shipra River.
             </p>
             <button
-              onClick={() => (window.location.href = "tel:+917380629555")}
+              onClick={() => (window.location.href = "tel:+918881537945")}
             >
               Book Now
             </button>
@@ -187,7 +187,7 @@ const Home = () => {
               seek the goddess’s blessings.
             </p>
             <button
-              onClick={() => (window.location.href = "tel:+917380629555")}
+              onClick={() => (window.location.href = "tel:+918881537945")}
             >
               Book Now
             </button>
@@ -226,11 +226,11 @@ const Home = () => {
       </div>
       <div className="footer flex">
         <div className="contact_sec flex">
-          <a href="mailto:mht.snghna@rediffmail.com">
-            📩 mht.snghna@rediffmail.com
+          <a href="mailto:kaashitour333@gmail.com">
+            📩 kaashitour333@gmail.com
           </a>
-          <a href="mailto:kashitourshreesaibrothers@gmail.com">
-            📩 kashitourshreesaibrothers@gmail.com
+          <a href="mailto:kaashitour333@gmail.com">
+            📩 kaashitour333@gmail.com
           </a>
         </div>
         <div className="lastline">
@@ -249,14 +249,14 @@ const Home = () => {
             </a>
             <a
               className="SmLink"
-              href="https://www.instagram.com/srisaibro/"
+              href="https://www.instagram.com/kashi_tour_by_lht?igsh=MTB0bHNqaGU2MmU1bA=="
               target="_blank"
             >
               <i className="fa-brands fa-square-instagram"></i> Instagram
             </a>
             <a
               className="SmLink smwb"
-              href="https://wa.me/917380629555"
+              href="https://wa.me/918881537945"
               target="_blank"
             >
               <i className="fa-brands fa-square-instagram"></i> Whatsapp
