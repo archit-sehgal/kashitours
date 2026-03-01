@@ -255,7 +255,7 @@ const Home = () => {
             </a>
             <a
               className="SmLink"
-              href="https://www.instagram.com/kashi_tour_by_lht?igsh=MTB0bHNqaGU2MmU1bA=="
+              href="https://www.instagram.com/explore_kashi333/"
               target="_blank"
             >
               <i className="fa-brands fa-square-instagram"></i> Instagram
